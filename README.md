@@ -22,7 +22,7 @@ DeviceCare is a simple and efficient tech-support application designed for stude
 
       cd backend
 
-      ballerina run <your_ballerina_file>.bal
+      bal run
 
 ## 3. Start the Frontend (ReactJS App)
 
@@ -30,7 +30,7 @@ DeviceCare is a simple and efficient tech-support application designed for stude
 
       npm install   
 
-      npm start  
+      npm run dev
 
 ---
 
