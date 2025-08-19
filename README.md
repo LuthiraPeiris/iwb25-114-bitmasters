@@ -7,19 +7,30 @@ DeviceCare is a simple and efficient tech-support application designed for stude
 ---
 
 # Running the Application
-## 1. Start the Backend (Ballerina Server)
+## 1. Prerequisites
+      ### Get an OpenAI API Key
+      1. Sign in at https://platform.openai.com/
+      
+      2. Create an API key.
+      
+      3. Keep it safe — you’ll add it to the backend config.
 
-cd backend
+      4. Create or edit `backend/Config.toml` and add your key.
 
-ballerina run <your_ballerina_file>.bal
 
-## 2. Start the Frontend (ReactJS App)
+## 2. Start the Backend (Ballerina Server)
 
-cd frontend
+      cd backend
 
-npm install   
+      ballerina run <your_ballerina_file>.bal
 
-npm start  
+## 3. Start the Frontend (ReactJS App)
+
+      cd frontend
+
+      npm install   
+
+      npm start  
 
 ---
 
